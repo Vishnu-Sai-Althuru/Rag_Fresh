@@ -20,3 +20,12 @@ __pycache__/
 # Vector DB (if RAG)
 chroma/
 faiss_index/
+
+
+venv/
+memory_db/
+logs/
+__pycache__/
+*.pyc
+cost_report.json
+

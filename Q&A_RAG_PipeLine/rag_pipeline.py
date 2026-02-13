@@ -36,7 +36,7 @@ retriever = vectordb.as_retriever(search_kwargs={"k": 3})
 llm = Ollama(model="llama3")
 
 ###  Adding Prompt Directly in the code
-question = "What  is AI?"
+question = "What  is AI"
 
 docs = retriever.get_relevant_documents(question)
 context = "\n".join([doc.page_content for doc in docs])
