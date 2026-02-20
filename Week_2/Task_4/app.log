@@ -1,0 +1,9 @@
+{"event": "error", "message": "[Errno 61] Connection refused"}
+{"event": "error", "message": "[Errno 61] Connection refused"}
+{"event": "error", "message": "[Errno 61] Connection refused"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is AI?", "tokens": 495, "latency": 30.50377082824707, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "Explain ML", "tokens": 809, "latency": 30.749818086624146, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is DevOps?", "tokens": 557, "latency": 21.19092106819153, "status": "success"}

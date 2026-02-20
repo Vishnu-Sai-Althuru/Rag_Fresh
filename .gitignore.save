@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+
+# Mac
+.DS_Store
+
+# Vector DB (if RAG)
+chroma/
+faiss_index/
+
+
+venv/
+memory_db/
+logs/
+__pycache__/
+*.pyc
+cost_report.json
+
+
+
+
+
+
+

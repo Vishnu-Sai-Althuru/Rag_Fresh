@@ -1,0 +1,27 @@
+{"event": "error", "message": "[Errno 61] Connection refused"}
+{"event": "error", "message": "[Errno 61] Connection refused"}
+{"event": "error", "message": "[Errno 61] Connection refused"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is AI?", "tokens": 696, "latency": 26.437439918518066, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "Explain ML", "tokens": 886, "latency": 32.81547212600708, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is DevOps?", "tokens": 625, "latency": 25.076828956604004, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is AI?", "tokens": 548, "latency": 22.81888723373413, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "Explain ML", "tokens": 833, "latency": 37.4193902015686, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is DevOps?", "tokens": 542, "latency": 32.91848134994507, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is AI?", "tokens": 631, "latency": 23.143447160720825, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "Explain ML", "tokens": 834, "latency": 31.789960861206055, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is DevOps?", "tokens": 576, "latency": 20.109480142593384, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is AI?", "tokens": 549, "latency": 23.49454092979431, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "Explain ML", "tokens": 785, "latency": 28.915984869003296, "status": "success"}
+HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+{"event": "llm_call", "prompt": "What is DevOps?", "tokens": 663, "latency": 24.50868511199951, "status": "success"}
