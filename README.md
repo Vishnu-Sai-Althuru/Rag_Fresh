@@ -50,26 +50,61 @@ Tasks-main/
 
 ## Features
 
--   Prompt Engineering
--   RAG Pipeline with embeddings & vector DB
--   AI Agent workflows
--   Memory systems
--   Task orchestration
--   Evaluation framework
--   Cost optimization & batching
--   Observability dashboards
+### ✅ Prompt Engineering
+- Template-based prompt design
+- Structured input handling
+
+### ✅ RAG (Retrieval-Augmented Generation)
+- PDF document ingestion
+- Text splitting & embeddings
+- Vector database storage (ChromaDB)
+- Context-aware querying
+
+### ✅ AI Agents
+- Tool-based agent workflows
+- LangGraph agent orchestration
+- Multi-step reasoning
+
+### ✅ Memory Systems
+- Short-term memory
+- Long-term persistent memory
+- SQLite-based storage
+
+### ✅ Task Orchestration
+- Planner + Executor architecture
+- Retry handling
+- Execution pipelines
+
+### ✅ Evaluation Framework
+- Dataset evaluation
+- Metrics calculation
+- Performance scoring
+
+### ✅ Cost Optimization
+- Token usage tracking
+- Request batching
+- Caching layer implementation
+
+### ✅ Observability
+- Metrics dashboards
+- Logging system
+- Cost reporting
 
 ------------------------------------------------------------------------
 
 ## Tech Stack
 
--   Python
--   LangChain
--   LangGraph
--   ChromaDB
--   SQLite
--   NumPy
--   Pandas
+| Category | Technologies |
+|---|---|
+| Language | Python |
+| AI Frameworks | LangChain, LangGraph |
+| Vector DB | ChromaDB |
+| LLM Integration | Custom LLM Client |
+| Data Processing | NumPy, Pandas |
+| Storage | SQLite |
+| Evaluation | Custom Metrics Framework |
+| Visualization | Dashboard Scripts |
+| Environment | Virtual Environment (venv) |
 
 ------------------------------------------------------------------------
 
@@ -77,14 +112,16 @@ Tasks-main/
 
 ### Clone Repository
 
-git clone `<repo-url>`{=html} cd Tasks-main
+git clone <repo-url>
+cd Tasks-main
 
 ### Create Virtual Environment
 
 python -m venv venv
 
-Activate: Windows: venv`\Scripts`{=tex}`\activate`{=tex}
+## Activate environment:
 
+Windows: venv\Scripts\activate
 Mac/Linux: source venv/bin/activate
 
 ### Install Dependencies
@@ -117,5 +154,4 @@ Vishnu Sai
 
 ## Submission Notes
 
-This repository is submitted as proof of completion for BOTP AI/ML
-training tasks.
+This repository is submitted as proof of completion for BOTP AI/ML training tasks.
