@@ -25,3 +25,9 @@ HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 {"event": "llm_call", "prompt": "Explain ML", "tokens": 785, "latency": 28.915984869003296, "status": "success"}
 HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 {"event": "llm_call", "prompt": "What is DevOps?", "tokens": 663, "latency": 24.50868511199951, "status": "success"}
+{"timestamp": "2026-02-26 15:06:04.816100", "event": "request", "data": {"prompt": "What is AI?"}}
+{"timestamp": "2026-02-26 15:06:04.818259", "event": "error", "data": {"message": "[Errno 61] Connection refused"}}
+{"timestamp": "2026-02-26 15:06:04.818304", "event": "request", "data": {"prompt": "Explain Machine Learning"}}
+{"timestamp": "2026-02-26 15:06:04.818738", "event": "error", "data": {"message": "[Errno 61] Connection refused"}}
+{"timestamp": "2026-02-26 15:06:04.818775", "event": "request", "data": {"prompt": "What is Deep Learning?"}}
+{"timestamp": "2026-02-26 15:06:04.819150", "event": "error", "data": {"message": "[Errno 61] Connection refused"}}
